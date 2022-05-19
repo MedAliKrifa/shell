@@ -1,0 +1,2 @@
+#!/bin/bash
+mv /root/shell/basics *[A-Z]* /tmp/u
