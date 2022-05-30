@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#displaying time hours and minutes 
+i=0
+while [ $i -lt 13 ];
+do
+    echo "Hour: $i";
+    g=1
+    while [ $g -lt 60 ];
+    do
+        echo "minute: $g";
+	((g++))
+    done
+    ((i++))
+done
