@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#the until do loop work as a counter it mean do count until u reach something
+i=1
+until [ $i -gt 10 ]
+do 
+echo "Best School"
+((i++))
+done
