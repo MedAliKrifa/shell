@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #same thing with the wile loop but we gonna put a condition using if
 i=1
-while [ $i -le 10 ];
+while [ $i -le 9 ];
 do
    echo "Best School";
    ((i++))
