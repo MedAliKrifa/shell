@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#in while loop we put a condition to make the loop end.
+i=0
+while [ $i -le 10 ]; do echo "Best School"; i=$(($i+1)); 
+done
