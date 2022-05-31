@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#loopint through each condition everytime 
+var i=1
+for ((i = 0 ; i <=100 ; i++))
+do
+if [ $((i%5)) -eq 0 ] 
+then echo "Buzz" 
+elif [ $((i%3)) -eq 0 ] 
+then echo "Fizz"
+elif [ $((i%15)) -eq 0 ] 
+then echo "FizzBuzz"
+fi
+echo "$i"
+done 
+
