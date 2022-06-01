@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#stoping the loop without kill or killal
+pkill -9 4-to_infinity_and_beyond
